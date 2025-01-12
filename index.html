@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>HTML Cheatsheet</title>
+    </head>
+    <body>
+        <h1>HTML CHEATSHEET!</h1>
+        <div id="basic">
+            <h2>Basic Tags</h2>
+            <h3>&lt;html&gt; &lt;/html&gt;</h3>
+                <p>HTML Tags are created to create HTML document</p>
+            <h3>&lt;title&gt; &lt;/title&gt;</h3>
+                <p>Title tag puts the name in the title bar when bookmarking pages</p>
+            <h3>&lt;head&gt; &lt;/head&gt;</h3>
+                <p>Head tag is used to contain all the head elements in the HTML document</p>
+            <h3>&lt;body&gt; &lt;/body&gt;</h3>
+                <p>Body tag is used to contain all the body elements in the HTML document</p>
+            <h3>&lt;footer&gt; &lt;/footer&gt;</h3>
+                <p>Footer tag is used to define a footer for a document or section</p>
+            <h4><img src="HTML_tags.png"></h4>  
+        </div>
+
+        <div id="formatting">
+            <h2>Formatting</h2>
+            <h3>&lt;p&gt; &lt;/p&gt;</h3>
+                <p>Paragraph tag is used to define a paragraph in the HTML document</p>
+            <h3>&lt;br&gt; &lt;/br&gt;</h3>
+                <p>Break tag is used to break the line</p>
+            <h3>&lt;div&gt; &lt;/div&gt;</h3>
+                <p>Div tag is used to define a division or a section in an HTML document</p>
+            <h3>&lt;span&gt; &lt;/span&gt;</h3>
+                <p>Span is used to format inline content with CSS</p>
+        </div>
+
+        <div id="tables">
+            <h2>Tables</h2>
+            <h3>&lt;table&gt; &lt;/table&gt;</h3>
+                <p>Table tag is used to create a table in the HTML document</p>
+            <h3>&lt;tr&gt; &lt;/tr&gt;</h3>
+                <p>Table row tag is used to define a row in the table</p>
+            <h3>&lt;td&gt; &lt;/td&gt;</h3>
+                <p>Table data tag is used to define a cell in the table</p>
+            <h3>&lt;th&gt; &lt;/th&gt;</h3>
+                <p>Table header tag is used to define a header cell in the table</p>
+        </div>
+
+        <div id="tabelements">
+            <table>
+                <thead id="tabheads">
+                  <tr><th>Tag</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                </tr></thead>
+                <tbody>
+                  <tr>
+                    <td><span class="code">&lt;table&gt;</span></td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;thead&gt;</span></td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tbody&gt;</span></td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tr&gt;</span></td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;td&gt;</span></td>
+                    <td>Table Data</td>
+                    <td>The table row container.</td>
+                  </tr>
+                  <tr>
+                    <td><span class="code">&lt;tfoot&gt;</span></td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div id="tabattributes">
+            <h2>Table Attributes</h2>
+            <h3>&lt;table width=?&gt;</h3>
+                <p>Width attribute is used to set the width of the table</p>
+            <h3>&lt;table border=?&gt;</h3>
+                <p>Border attribute is used to set the border of the table</p>
+            <h3>&lt;table cellspacing=?&gt;</h3>
+                <p>Cellspacing attribute is used to set the space between the cells</p>
+            <h3>&lt;table cellpadding=?&gt;</h3>
+                <p>Cellpadding attribute is used to set the space between the cell wall and the cell content</p>
+            <h3>&lt;tr align=?&gt;</h3>
+                <p>Align attribute is used to set the alignment of the row(left/center/right)</p>
+            <h3>&lt;td align=?&gt;</h3>
+                <p>Align attribute is used to set the alignment of the cell(left/center/right)</p>
+            <h3>&lt;tr valign=?&gt;</h3>
+                <p>Align attribute is used to set the alignment of the row(top/middle/bottom)</p>
+            <h3>&lt;td valign=?&gt;</h3>
+                <p>Align attribute is used to set the alignment of the cell(top/middle/bottom)</p>
+            <h3>&lt;td rowspan=?&gt;</h3>
+                <p>Rowspan attribute is used to set the number of rows a cell should span</p>
+            <h3>&lt;td colspan=?&gt;</h3>
+                <p>Colspan attribute is used to set the number of columns a cell should span</p>
+        </div>
+
+        <div id="list">
+            <h2>Lists</h2>
+            <h3>&lt;ul&gt; &lt;/ul&gt;</h3>
+                <p>Unordered list tag is used to create an unordered list</p>
+            <h3>&lt;ol&gt; &lt;/ol&gt;</h3>
+                <p>Ordered list tag is used to create an ordered list</p>
+            <h3>&lt;li&gt; &lt;/li&gt;</h3> 
+                <p>List item tag is used to define a list item</p>
+        </div>
+
+        <div id="text">
+            <h2>Text Tags</h2>
+            <h3>&lt;h1&gt; &lt;/h1&gt;</h3>
+                <p>Heading tag is used to define a heading, heading go from h1(most important) - h6(least important)</p>
+            <h3>&lt;b&gt; &lt;/b&gt;</h3>
+                <p>Bold tag is used to make the text bold</p>
+            <h3>&lt;i&gt; &lt;/i&gt;</h3>
+                <p>Italic tag is used to make the text italic</p>
+            <h3>&lt;u&gt; &lt;/u&gt;</h3>
+                <p>Underline tag is used to underline the text</p>
+            <h3>&lt;em&gt; &lt;/em&gt;</h3>
+                <p>Emphasized tag is used to emphasize the text</p>
+            <h3>&lt;strong&gt; &lt;/strong&gt;</h3>
+                <p>Strong tag is used to make the text strong</p>
+        </div>
+
+        <div id="links">
+            <h2>Links</h2>
+            <h3>&lt;a href="URL"&gt; clickable text &lt;/a&gt;</h3>
+                <p>Anchor tag is used to create a hyperlink</p>
+            <h3>&lt;a href="mailto:email"&gt; clickable text &lt;/a&gt;</h3>
+                <p>Mailto tag is used to create a hyperlink to an email address</p>
+            <h3>&lt;a href="tel:phone number"&gt; clickable text &lt;/a&gt;</h3>    
+                <p>Tel tag is used to create a hyperlink to a phone number</p>
+        </div>
+
+        <div id="forms"> 
+            <h2>Forms</h2>
+            <h3>&lt;form&gt; &lt;/form&gt;</h3>
+                <p>Form tag is used to create a form in the HTML document</p>
+            <h3>&lt;select name=?&gt; &lt;/select&gt;</h3>
+                <p>Select tag is used to create a dropdown list</p>
+            <h3>&lt;option&gt; &lt;/option&gt;</h3>
+                <p>Option tag is used to define an option in the dropdown list</p>
+            <h3>&lt;textarea&gt; &lt;/textarea&gt;</h3>
+                <p>Textarea tag is used to create a multi-line text input field</p>
+            <h3>&lt;button&gt; &lt;/button&gt;</h3>
+                <p>Button tag is used to create a clickable button</p>
+            <h3>&lt;label&gt; &lt;/label&gt;</h3>
+                <p>Label tag is used to define a label for an input element</p>
+            <h3>&lt;fieldset&gt; &lt;/fieldset&gt;</h3>
+                <p>Fieldset tag is used to group related elements in a form</p>
+            <h3>&lt;legend&gt; &lt;/legend&gt;</h3>
+                <p>Legend tag is used to define a caption for a fieldset element</p>
+        </div>
+
+        <div id="input">
+            <h2>Input Tags</h2>
+            <h3>&lt;input type="text"&gt;</h3>
+                <p>Input tag is used to create an input field</p>
+            <h3>&lt;input type="radio"&gt;</h3>
+                <p>Radio tag is used to create a radio button</p>
+            <h3>&lt;input type="checkbox"&gt;</h3> 
+                <p>Checkbox tag is used to create a checkbox</p>
+            <h3>&lt;input type="submit"&gt;</h3>
+                <p>Submit tag is used to create a submit button</p>
+            <h3>&lt;input type="reset"&gt;</h3>
+                <p>Reset tag is used to create a reset button</p>
+            <h3>&lt;input type="password"&gt;</h3>
+                <p>Password tag is used to create a password field</p>
+            <h3>&lt;input type="file"&gt;</h3>
+                <p>File tag is used to create a file select box</p>
+            <h3>&lt;input type="hidden"&gt;</h3>
+                <p>Hidden tag is used to create a hidden input field</p>
+            <h3>&lt;input type="image"&gt;</h3>
+                <p>Image tag is used to create an image as a submit button</p>
+            <h3>&lt;input type="date"&gt;</h3>
+                <p>Date tag is used to create a date field</p>
+            <h3>&lt;input type="color"&gt;</h3>
+                <p>Color tag is used to create a color picker</p>
+            <h3>&lt;input type="range"&gt;</h3>
+                <p>Range tag is used to create a range slider</p>
+            <h3>&lt;input type="number"&gt;</h3>
+                <p>Number tag is used to create a number field</p>
+            <h3>&lt;input type="email"&gt;</h3>
+                <p>Email tag is used to create an email field</p>
+            <h3>&lt;input type="tel"&gt;</h3>
+                <p>Tel tag is used to create a telephone field</p>
+            <h3>&lt;input type="url"&gt;</h3>
+                <p>URL tag is used to create a URL field</p>
+        </div>
+    </body>
+</html>
